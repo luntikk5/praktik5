@@ -1,0 +1,315 @@
+/* All */
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+h1,h2,h3,p,span,a, li {
+    font-family: 'Roboto', sans-serif;
+}
+h2 {
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    color: #000000;
+    margin-bottom:37px ;
+}
+.slick-prev:before,
+.slick-next:before {
+    color:#9E1F66;
+}
+.button {
+    background: #9E1F66;
+    border-radius: 5px;
+    color:#fff;
+    font-size: 24px;
+    line-height: 28px;
+    border:none;
+}
+a {
+    text-decoration: none;
+}
+/* Header */
+nav {
+    padding: 0 60px;
+}
+ul {
+    list-style-type: none;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul a {
+    color:#000;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+}
+ul .autoriz {
+    padding:20px 44px;
+}
+.nameCompany {
+    font-size: 40px;
+    line-height: 47px;
+}
+.logo {
+    display:block;
+    background: url(../img/logo.png) no-repeat;
+    width: 170px;
+    height: 170px;
+    background-size: cover;
+}
+/* Mainpage */
+.mainImage {
+    background: url(../img/mainImage.png) no-repeat;
+    padding:216px 710px 204px 60px;
+    background-size: cover;
+}
+.mainImage h1 {
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    color: #FFFFFF;
+    margin-bottom: 88px;
+}
+.mainImage h3 {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFFFF;
+    width: 1150px;
+    margin-bottom: 88px;
+}
+.mainImage .pickBook {
+    padding: 20px 102px;
+}
+/* Header choose */
+.bookMenu {
+    padding: 63px 47px 22px 47px;
+}
+.slider-item {
+    width: 550px;
+    padding: 15px 15px 0px 15px;   
+    text-align: center;
+    margin-left:88px;
+}
+.bookImage1 {
+    background: url(../img/book1.png) no-repeat;
+    background-size: cover;
+    width: 520px;
+    height: 538px;
+    margin-bottom: 21px;
+}
+.bookImage2 {
+    background: url(../img/book2.png) no-repeat;
+    background-size: cover;
+    width: 520px;
+    height: 538px;
+    margin-bottom: 21px;
+}
+.bookImage3 {
+    background: url(../img/book3.png) no-repeat;
+    background-size: cover;
+    width: 520px;
+    height: 538px;
+    margin-bottom: 21px;
+}
+.bookImage4 {
+    background: url(../img/book4.png) no-repeat;
+    background-size: cover;
+    width: 520px;
+    height: 538px;
+    margin-bottom: 21px;
+}
+.slider-item p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
+    margin-bottom: 8px;
+}
+.slider-item span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    color: rgba(0, 0, 0, 0.61);
+}
+.slider-item .autoriz {
+    display:block;
+    padding: 20px 188px;
+    margin-top: 60px;
+}
+/* Button more buttons */
+.moreBooks {
+    text-align: center;
+    margin-top:126px;
+}
+.moreBooks .loadBook {
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 56px;
+    color: #000000;
+    padding: 39px 120px;
+    border: 10px solid #9E1F66;
+    border-radius: 5px;
+}
+/* Contacts */
+.contactsBlock {
+    margin-top:103px;
+    padding: 60px 137px 96px 60px;
+}
+.contacts {
+    display:flex;
+}
+.contacts h2 {
+    margin-bottom: 36px;
+}
+.contacts .map {
+    background: url(../img/map.png);
+    background-size: cover;
+    width: 698px;
+    height: 713px;
+}
+.contacts .info {
+    margin-left: 240px;
+}
+.contacts p {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 56px;
+}
+.contacts .timeOfWork {
+    display:flex;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+}
+.contacts .timeOfWork p:first-child 
+{
+    margin-right: 135px;
+}
+.contacts .logoVK {
+    display:inline-block;
+    background: url(../img/vk.png);
+    background-size: cover;
+    width: 121px;
+    height: 121px;
+}
+/* Footer */
+footer {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    color:#fff;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    background-color:#9E1F66;
+    padding: 110px 83px 95px 60px;
+}
+footer p:first-child {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+}
+footer .adress {
+    text-align: center;
+}
+.socialFooter .logoVK {
+    display:inline-block;
+    background: url(../img/vkMini.png);
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+}
+/* Страница новостей */
+.news {
+    display:flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+}
+.news h1 {
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    color: #000;
+    margin-bottom: 25px;
+}
+.news h2 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 75px;
+    color: #000000;
+    margin-bottom:37px ;
+}
+.newsItem {
+    display:flex;
+    gap:20px;
+    margin-bottom: 37px;
+}
+.newsItem .about {
+    float:right;
+}
+.newsItem img {
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+}
+.newsItem p {
+    margin-bottom: 80px;
+}
+.newsItem .date {
+    color:#9E1F66;
+    margin-bottom: 30px;
+}
+.newsItem .button {
+    padding:10px 44px;
+}
+/* Страница новостей */
+.pageNews {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+    
+.pageNews h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+    
+.pageNews h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+    
+.pageNews img {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+    
+.pageNews p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.pageNews ul {
+    display:block;
+    list-style: disc;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+  
+.pageNews li {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
